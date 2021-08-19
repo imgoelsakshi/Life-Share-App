@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".uregistration"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="Registration" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="Please enter the personal details:" />
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="I am a:"
+                android:textColor="#F44336"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="116dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Donor"
+                android:buttonTint="#0A0C0A"
+                android:textColor="#F44336"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="128dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="5dp"
+                android:text="Recipient"
+                android:buttonTint="#060707"
+                android:textColor="#F44336"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape2"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#F44336"
+                android:textColorHint="#655B5B"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="177dp"
+                android:layout_height="50dp"
+                android:background="@drawable/shape2"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#655B5B"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#655B5B"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#655B5B"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#655B5B"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/shape2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="#F44336"
+                android:textSize="30dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox134"
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:text="Male"
+                android:buttonTint="#090B0B"
+                android:textColor="#F44336"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox90"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="Female"
+                android:buttonTint="#0D1212"
+                android:textColor="#F44336"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editText90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape2"
+            android:hint="Blood Group                        >"
+            android:textColor="#ffffff"
+            android:textColorHint="#F44336"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:hint="Mobile No(Enter Valid Number)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#655B5B"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox330"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="I agree to the terms and conditions"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:buttonTint="#010202"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="258dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#F44336"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+

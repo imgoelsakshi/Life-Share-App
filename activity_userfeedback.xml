@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".userfeedback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="45dp"
+        android:text="How will you rate our new app?"
+        android:textColor="#F44336"
+        android:textSize="29sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape2"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:saveEnabled="true"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="What section would you like to comment on?"
+        android:textColor="#F44336"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape2"
+        android:hint="Type your message here"
+        android:textColorHint="#F44336"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="What would you like to share with us?"
+        android:textColor="#F44336"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape2"
+        android:hint="Type your message here"
+        android:textColorHint="#F44336"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:background="#F44336"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

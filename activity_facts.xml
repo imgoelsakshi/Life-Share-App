@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".facts">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="FACTS"
+        android:textColor="#F44336"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        android:text="An app to connect donors and receivers in real time.
+"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When a user requests for a donor through our app, a list of donors will be shown to him/ her based on the required blood type.
+"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F44336"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thus, it's a time saving process. There is no need to search blood centers or be part of long waiting lists, when your close one needs blood urgently.
+"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#F44336"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User can communicate with donor directly via calls or messages using our app. 
+"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F44336"/>
+
+
+</LinearLayout>

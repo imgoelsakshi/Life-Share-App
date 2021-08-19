@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".blood"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Blood Group"
+            android:textColor="#2196F3"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Please enter your blood group:"
+            android:textColor="#2196F3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttona1"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:background="@drawable/circle"
+            android:text="A+"
+            android:layout_marginLeft="50dp"
+            android:textSize="40dp"
+            android:textColor="#8BC34A"/>
+
+        <Button
+            android:id="@+id/buttona2"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="80dp"
+            android:text="A-"
+            android:textSize="40dp"
+            android:textColor="#8BC34A"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttona3"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:background="@drawable/circle"
+            android:text="B+"
+            android:layout_marginLeft="50dp"
+            android:textSize="40dp"
+            android:textColor="#8BC34A"/>
+
+        <Button
+            android:id="@+id/buttona4"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="80dp"
+            android:text="B-"
+            android:textSize="40dp"
+            android:textColor="#8BC34A"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttona5"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/circle"
+            android:text="AB+"
+            android:textColor="#8BC34A"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/buttona6"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/circle"
+            android:text="AB-"
+            android:textColor="#8BC34A"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttona7"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/circle"
+            android:text="O+"
+            android:textColor="#8BC34A"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/buttona8"
+            android:layout_width="113dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/circle"
+            android:text="O-"
+            android:textColor="#8BC34A"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lets help save a life"
+        android:textColor="#F44336"
+        android:textSize="40dp" />
+</LinearLayout>

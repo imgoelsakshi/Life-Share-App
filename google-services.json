@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873851260074",
+    "firebase_url": "https://life-share-b6cff.firebaseio.com",
+    "project_id": "life-share-b6cff",
+    "storage_bucket": "life-share-b6cff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873851260074:android:5cc2f86280c8e2cf8794d3",
+        "android_client_info": {
+          "package_name": "com.example.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873851260074-8qmt3ctd3eusvkc7gkhm7d0rsc63nkvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADChH67K8F0LQgolpIEgcrleBVNFt1lj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873851260074-8qmt3ctd3eusvkc7gkhm7d0rsc63nkvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

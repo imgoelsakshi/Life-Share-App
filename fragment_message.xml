@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MessageFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:text="Please type your message below in the dialog box:"
+        android:textSize="40sp"
+        android:textColor="#F44336"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/shape2"
+        android:hint="Type your message"
+        android:textColorHint="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:text="SEND"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:background="#F44336"/>
+
+</LinearLayout>

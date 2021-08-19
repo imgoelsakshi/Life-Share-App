@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    tools:context=".Forgot">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LIFE SHARE"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:text="Oops You have Forgotten your Password!"
+        android:textSize="40sp"
+        android:textColor="#F44336"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select any of the icons below to contact the administrator:"
+        android:textSize="30sp"
+        android:textColor="#F44336"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/message12"
+                android:layout_width="138dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_send_24" />
+
+            <ImageView
+                android:id="@+id/call12"
+                android:layout_width="138dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="130dp"
+                app:srcCompat="@drawable/ic_baseline_call_24" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="750dp">
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
